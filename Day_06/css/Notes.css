@@ -1,0 +1,23 @@
+body{
+    background-image: url("../img/back.jpg");
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.lis{
+    
+    font-size: 40px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: burlywood;
+}
+@media only screen and (max-width: 760px) {
+    a{
+        text-align: left;
+    }
+}
